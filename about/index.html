@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website With Login & Registration | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">
+            GMS</h2>
+        <nav class="navigation">
+            <a href="/index.html">Home</a>
+            <a href="/about/index.html">About</a>
+            <a href="/contact/index.html">Contact</a>
+            <button class="btnlogin-popup">Login</button>
+        </nav>
+
+    </header>
+    <div class="wrapper1">
+        <div class="L1">
+            <div class="card">
+                <img src="/about/_37b46aae-8590-43b3-a0fa-c9c2684ed307.jpeg" width="500px" height="450px" alt="Device to recive data">
+                
+
+            </div>
+            <div class="card2">
+                <h2 class="card-title"> About Greenhouse Management System</h2>
+                <p>
+                    The Greenhouse Management System is a comprehensive software solution designed to revolutionize the way greenhouse environments are monitored and controlled. Our system leverages advanced technologies to automate various aspects of greenhouse management, ensuring optimal growing conditions for plants while minimizing manual intervention.
+                </p>
+                <h2 class="card-title"> Our Mission</h2>
+                <p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay hide"></div>
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                        Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                        I agree to the terms & conditions</label>
+
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Alredy have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
